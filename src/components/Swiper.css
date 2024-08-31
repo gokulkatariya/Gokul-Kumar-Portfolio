@@ -1,0 +1,25 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: rgb(25, 153, 175);
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgb(48, 207, 235);
+}
