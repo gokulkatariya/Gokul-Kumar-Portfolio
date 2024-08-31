@@ -8,7 +8,7 @@ function Contact() {
         <div className="w-full">
           <img src="./contact-me.svg" alt="phone" />
         </div>
-        <form className="w-full" name="contactUS" netlify>
+        <form className="w-full" name="contactUS">
           <label
             htmlFor="name"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
