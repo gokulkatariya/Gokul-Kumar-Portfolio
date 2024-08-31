@@ -1,3 +1,5 @@
+import phoneIcon from "../assets/image/contact-me.svg";
+
 function Contact() {
   return (
     <section className="max-w-screen-xl mx-auto px-4">
@@ -6,7 +8,7 @@ function Contact() {
       </h2>
       <div className="flex flex-col md:flex-row items-center mt-10">
         <div className="w-full">
-          <img src={require("../assets/image/contact-me.svg")} alt="phone" />
+          <img src={phoneIcon} alt="phone" />
         </div>
         <form className="w-full" name="contactUS">
           <label
