@@ -15,7 +15,7 @@ function Main() {
           <p className=" font-[merriweather] italic my-3 md:my-8">
             React Js Developer
           </p>
-          <a href="/src/assets/image/Gokul Resume.pdf" target="_blank">
+          <a href="/public/assets/image/Gokul Resume.pdf" target="_blank">
             <button className="bg-[#e84bcc] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#e03ccf] to-[#1790ece6] relative hover:scale-110 ease-in-out duration-100 group">
               About Me
               <svg
