@@ -8,12 +8,8 @@ function Contact() {
         <div className="w-full">
           <img src="/src/assets/image/contact-me.svg" alt="phone" />
         </div>
-        <form
-          className="w-full"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-        >
+        <form className="w-full" name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
           <label
             htmlFor="name"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
