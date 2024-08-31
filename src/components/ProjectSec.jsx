@@ -16,7 +16,7 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200">
               <img
                 className="max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/netflix.webp"
+                src="../assets/image/netflix.webp"
                 alt=""
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#459bd5] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
@@ -121,7 +121,7 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto">
               <img
                 className="max-w-[400px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/gosala.webp"
+                src="../assets/image/gosala.webp"
                 alt=""
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 text-black bg-[#ceff78] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
