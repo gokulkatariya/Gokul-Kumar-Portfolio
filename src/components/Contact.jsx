@@ -6,7 +6,10 @@ function Contact() {
       </h2>
       <div className="flex flex-col md:flex-row items-center mt-10">
         <div className="w-full">
-          <img src="/src/assets/image/contact-me.svg" alt="phone" />
+          <img
+            src="https://www.shutterstock.com/image-photo/bluenaped-parrot-tanygnathus-lucionensis-colorful-native-1911703984"
+            alt="phone"
+          />
         </div>
         <form className="w-full" name="contactUS" netlify>
           <label
