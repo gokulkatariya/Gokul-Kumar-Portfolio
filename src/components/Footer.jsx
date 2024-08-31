@@ -1,9 +1,11 @@
+import logo3 from "../assets/image/name.logo3.png";
+
 function Footer() {
   return (
     <footer className="flex flex-col items-center py-10">
       <p className="text-xs text-gray-300">Gokul Kumar © 2024</p>
       <div className="black-logo my-2">
-        <img width="80" src="/src/assets/image/name.logo3.png" alt="" />
+        <img width="80" src={logo3} alt="logo3" />
       </div>
       <ul className="mx-auto flex items-center justify-center gap-6 text-[#b0b2c3]">
         <li>
@@ -67,7 +69,7 @@ function Footer() {
         </li>
         <li>
           <a href="https://github.com/gokulkatariya" target="_blank">
-          <svg
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 hover:text-white"
               viewBox="0 0 496 512"

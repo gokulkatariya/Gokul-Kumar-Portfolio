@@ -1,7 +1,9 @@
+import logo2 from "../assets/image/name.logo2.png";
+
 function Header() {
   return (
     <header className="flex items-center justify-between px-4 mx-auto w-full mt-4 max-w-screen-2xl">
-       <img width="80" src="/src/assets/image/name.logo2.png" alt="" />
+      <img width="80" src={logo2} alt="logo2" />
       <div className="flex gap-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"

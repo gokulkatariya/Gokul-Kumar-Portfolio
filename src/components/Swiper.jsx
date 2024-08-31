@@ -5,6 +5,9 @@ import "swiper/css/pagination";
 import { Navigation } from "swiper/modules";
 import { Pagination } from "swiper/modules";
 import "./Swiper.css";
+import jhabarImg from "../assets/image/jhabar.webp";
+import lalchandImg from "../assets/image/lalchand.webp";
+import laxmanImg from "../assets/image/laxman.webp";
 
 function swiper() {
   const pagination = {
@@ -22,8 +25,8 @@ function swiper() {
           <div className="flex flex-col md:flex-row items-center m-auto w-full md:max-w-[800px] mx-4 rounded-lg p-9 shadow-[0_0px_60px_rgba(59,130,246,0.6)] cursor-grab">
             <img
               className="shrink-0 md:w-[180px] md:h-[180px] w-[130px] h-[130px] rounded-full drop-shadow-[0_0px_60px_rgba(59,130,246,1)]"
-              src="/src/assets/image/jhabar.webp"
-              alt=""
+              src={jhabarImg}
+              alt="jhabarImg"
             />
             <div className="ml-6 text-left pt-6 md:pt-12 relative">
               <p className="text-sm md:text-base mb-2">
@@ -47,8 +50,8 @@ function swiper() {
           <div className="flex flex-col md:flex-row items-center m-auto w-full md:max-w-[800px] mx-4 rounded-lg p-9 shadow-[0_0px_60px_rgba(59,130,246,0.6)] cursor-grab">
             <img
               className="shrink-0  md:w-[180px] md:h-[180px] w-[130px] h-[130px] rounded-full drop-shadow-[0_0px_60px_rgba(59,130,246,1)]"
-              src="/src/assets/image/lalchand.webp"
-              alt=""
+              src={lalchandImg}
+              alt="lalchandImg"
             />
             <div className="ml-6 text-left pt-6 md:pt-12 relative">
               <p className="text-sm md:text-base mb-2">
@@ -71,8 +74,8 @@ function swiper() {
           <div className="flex flex-col md:flex-row items-center m-auto w-full md:max-w-[800px] mx-4 rounded-lg p-9 shadow-[0_0px_60px_rgba(59,130,246,0.6)] cursor-grab">
             <img
               className="shrink-0  md:w-[180px] md:h-[180px] w-[130px] h-[130px] rounded-full drop-shadow-[0_0px_60px_rgba(59,130,246,1)]"
-              src="/src/assets/image/laxman.webp"
-              alt=""
+              src={laxmanImg}
+              alt="laxmanImg"
             />
             <div className="ml-6 text-left pt-6 md:pt-12 relative">
               <p className="text-sm md:text-base mb-2">

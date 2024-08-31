@@ -1,3 +1,6 @@
+import logo3 from "../assets/image/name.logo3.png";
+import gokulresume from "../assets/image/GokulResume.pdf";
+
 function Main() {
   return (
     <main className="flex -mt-32 relative">
@@ -5,8 +8,8 @@ function Main() {
         <img
           className="absolute top-0 -translate-y-1/3 -translate-x-1/2 left-1/2"
           width="700"
-          src="/src/assets/image/name.logo3.png"
-          alt=""
+          src={logo3}
+          alt="logo3"
         />
         <div className="relative ml-4 md:ml-12">
           <h1 className="text-4xl md:text-[64px] font-[spartan] mr-14 ">
@@ -15,7 +18,7 @@ function Main() {
           <p className=" font-[merriweather] italic my-3 md:my-8">
             React Js Developer
           </p>
-          <a href="/src/assets/image/GokulResume.pdf" target="_blank">
+          <a href={gokulresume} target="_blank">
             <button className="bg-[#e84bcc] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#e03ccf] to-[#1790ece6] relative hover:scale-110 ease-in-out duration-100 group">
               About Me
               <svg

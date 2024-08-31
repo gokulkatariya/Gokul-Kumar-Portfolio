@@ -1,3 +1,11 @@
+import netflix from "../assets/image/netflix.webp";
+import gosala from "../assets/image/gosala.webp";
+import Constraction from "../assets/image/Constraction.webp";
+import BookStore from "../assets/image/BookStore.webp";
+import RestApi from "../assets/image/RestApi.webp";
+import Caffe from "../assets/image/Caffe.webp";
+import Expenses from "../assets/image/Expenses.webp";
+
 function ProjectSec() {
   return (
     <>
@@ -16,8 +24,8 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200">
               <img
                 className="max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/netflix.webp"
-                alt=""
+                src={netflix}
+                alt="netflix"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#459bd5] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
                 Netflix
@@ -121,8 +129,8 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto">
               <img
                 className="max-w-[400px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/gosala.webp"
-                alt=""
+                src={gosala}
+                alt="gosala"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 text-black bg-[#ceff78] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
                 Goshala
@@ -157,8 +165,8 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200">
               <img
                 className="max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/Constraction.webp"
-                alt=""
+                src={Constraction}
+                alt="Constraction"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#b31004] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
                 Consturction
@@ -262,8 +270,8 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto">
               <img
                 className="max-w-[400px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/BookStore.webp"
-                alt=""
+                src={BookStore}
+                alt="BookStore"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#dd4808] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
                 Bookstore
@@ -298,8 +306,8 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200">
               <img
                 className="max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/RestApi.webp"
-                alt=""
+                src={RestApi}
+                alt="RestApi"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#4864eb] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
                 RestApi
@@ -403,8 +411,8 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto">
               <img
                 className="max-w-[400px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/Caffe.webp"
-                alt=""
+                src={Caffe}
+                alt="Caffe"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 text-black bg-[#78e856] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
                 Caffe Shop
@@ -439,8 +447,8 @@ function ProjectSec() {
             <div className="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200">
               <img
                 className="max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src="/src/assets/image/Expenses.webp"
-                alt=""
+                src={Expenses}
+                alt="Expenses"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#1788ae] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
                 Expenses
