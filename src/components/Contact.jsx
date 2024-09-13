@@ -1,6 +1,32 @@
+import { useState } from "react";
 import contactMe from "../assets/image/contact-me.svg";
 
 function Contact() {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "ffa227bc-14ec-4937-b8a6-df55056a60f9");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Email Sent Successfully!");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <section className="max-w-screen-xl mx-auto px-4">
       <h2 className="text-3xl sm:text-[40px] bg-[#111] sm:w-max relative z-10 font-bold px-4 py-2 mx-auto text-center text-[#1788ae] sm:border-2 border-[#1788ae] rounded-md">
@@ -10,7 +36,7 @@ function Contact() {
         <div className="w-full">
           <img src={contactMe} alt="phone" />
         </div>
-        <form className="w-full" name="contactUS">
+        <form className="w-full" name="contactUS" onSubmit={onSubmit}>
           <label
             htmlFor="name"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -35,6 +61,7 @@ function Contact() {
               name="name"
               className="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#1788ae] focus:border-[#1788ae] block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
               placeholder="Enter your name"
+              required
             />
           </div>
           <label
@@ -62,6 +89,7 @@ function Contact() {
               name="email"
               className="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#1788ae] focus:border-[#1788ae] block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
               placeholder="name@gokulkumar.com"
+              required
             />
           </div>
           <label
@@ -77,6 +105,7 @@ function Contact() {
               name="message"
               rows="8"
               className="bg-gray-50 border-2 outline-none border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#1788ae] focus:border-[#1788ae] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+              required
             ></textarea>
           </div>
           <button
@@ -85,6 +114,7 @@ function Contact() {
           >
             Send
           </button>
+        <span>{result}</span>
         </form>
       </div>
     </section>
