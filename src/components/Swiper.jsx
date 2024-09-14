@@ -41,7 +41,7 @@ function swiper() {
                 Jhabar Mal Saini
               </h2>
               <h5 className="text-right text-[rgb(59,130,246)] text-base md:text-lg">
-                Founder, Bookstore
+                Founder, Collage Site
               </h5>
             </div>
           </div>
