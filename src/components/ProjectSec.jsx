@@ -30,7 +30,7 @@ function ProjectSec() {
                 alt="googlegemini"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#e65580] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
-                Google Gemini
+                Google Gemini 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -53,7 +53,7 @@ function ProjectSec() {
 
           <div className="w-full">
             <h3 className="text-[#e65580] font-bold text-2xl md:text-4xl">
-              Google Gemini
+              Google Gemini Clone
             </h3>
             <span className="text-[#e65580] text-base md:text-lg">
               (Search Engine)
